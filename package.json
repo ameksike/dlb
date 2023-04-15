@@ -1,0 +1,36 @@
+{
+  "name": "dlb",
+  "version": "1.0.0",
+  "description": "Simple and Light NoSQL DB",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "publish": "npm login && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ameksike/dlb.git"
+  },
+  "keywords": [
+    "NoSQL",
+    "db",
+    "config",
+    "document"
+  ],
+  "author": "Antonio Membrides Espinosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ameksike/dlb/issues"
+  },
+  "homepage": "https://github.com/ameksike/dlb#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "ksdp": "^1.0.9"
+  }
+}
