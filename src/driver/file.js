@@ -1,12 +1,12 @@
 /**
- * @description Light Database
- * @module db/LDB
+ * @description File storage engine 
+ * @module db/file
  * @requires fs 
  * @requires path 
  * @requires cryp 
  */
 
-class CrypDB {
+class FileDB {
 
     #model = {}
     #driver = {} 
@@ -331,4 +331,4 @@ class CrypDB {
     }
 }
 
-module.exports = CrypDB;
+module.exports = FileDB;

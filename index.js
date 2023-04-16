@@ -1,5 +1,3 @@
 const Engine = require("./src/engine");
 
-module.exports = {
-    Engine
-}
+module.exports = Engine;
