@@ -6,8 +6,8 @@
  */
 class Cryp {
 
-    constructor() {
-        this.logger = require('../services/log.service');
+    constructor(logger) {
+        this.logger = logger;
     }
 
     /**
